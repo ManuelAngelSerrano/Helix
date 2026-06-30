@@ -1,0 +1,65 @@
+#theme = "everforest_dark"
+theme = "monokai"
+
+[editor]
+line-number = "relative"
+# mouse = false
+cursorline = true
+lsp.display-inlay-hints = true
+
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25 # increase value to reduce forced mid-word wrapping
+max-indent-retain = 0
+wrap-indicator = ""  # set wrap-indicator to "" to hide it
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+[keys.insert]
+# j = { j = "normal_mode" } # Maps `jj` to exit insert mode
+# j = { k = "normal_mode" } # Maps `jk` to exit insert mode
+C-c = "normal_mode" # Maps Ctrl-C to exit insert mode
+
+[keys.insert.j]
+j = "normal_mode" # Maps `jj` to exit insert mode
+k = "normal_mode" # Maps `jk` to exit insert mode
+
+[keys.insert.","]
+"." = "normal_mode" # Maps ',.' to exit insert mode
+
+[keys.normal]
+C-s = ":write" # Ctrl and 's' to write
+Cmd-s = ":write" # Cmd or Win or Meta and 's' to write
+"ret" = "goto_word"
+"0" = "goto_line_start" 
+"$" = "goto_line_end"
+"G" = "goto_last_line"
+# Para que es mueva por lineas completas y no lineas visuales e wordwarp mode
+j = "move_line_down"
+k = "move_line_up"
+A-z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
+A-l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
+";" = "keep_primary_selection"
+
+[keys.normal."space"]
+o = "file_picker_in_current_buffer_directory"
+
+[keys.normal.","]
+w = ":write"
+q = ":quit"
+c = "toggle_comments"
+z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
+l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
+
+[keys.normal."g"]
+G = "goto_last_line"
