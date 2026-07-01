@@ -1,0 +1,5 @@
+inherits = "molokai"
+
+"ui.statusline.normal" = { fg = "white", bg = "green" }
+"ui.statusline.insert" = { fg = "white", bg = "red" }
+"ui.statusline.select" = { fg = "white", bg = "blue" }
