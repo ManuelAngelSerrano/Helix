@@ -50,6 +50,7 @@ k = "move_line_up"
 A-z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
 A-l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
 ";" = "keep_primary_selection"
+"V" = ["extend_line_below", "select_mode"] # Simula la V de vim, selecciona la linea actual y se queda en modo selecion
 
 [keys.normal."space"]
 o = "file_picker_in_current_buffer_directory"
@@ -60,6 +61,13 @@ q = ":quit"
 c = "toggle_comments"
 z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
 l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
+"," = "keep_primary_selection"
 
 [keys.normal."g"]
 G = "goto_last_line"
+# Gestion de mayusculas y minúsculas
+# Recordemos que ~ cambia de uppercase a lowercase y vicersa
+u = "switch_to_lowercase" # Simulamos gu de vim
+U = "switch_to_uppercase" # Simulamos gU de vim
+
+
