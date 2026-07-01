@@ -1,6 +1,7 @@
 # theme = "everforest_dark"
 # theme = "dracula"
 # theme = "monokai"
+# theme = "molokai_MS"
 theme = "monokai_MS"
 
 [editor]
