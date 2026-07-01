@@ -1,12 +1,14 @@
-#theme = "everforest_dark"
-theme = "monokai"
+# theme = "everforest_dark"
+# theme = "dracula"
+# theme = "monokai"
+theme = "monokai_MS"
 
 [editor]
 line-number = "relative"
 # mouse = false
 cursorline = true
 lsp.display-inlay-hints = true
-
+color-modes = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -69,5 +71,25 @@ G = "goto_last_line"
 # Recordemos que ~ cambia de uppercase a lowercase y vicersa
 u = "switch_to_lowercase" # Simulamos gu de vim
 U = "switch_to_uppercase" # Simulamos gU de vim
+
+# Mejora de la statusline - powerline
+[editor.statusline]
+left = ["mode", "spinner", "version-control"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-type"]
+# separator = "|"
+# mode.normal = "NORMAL"
+# mode.insert = "INSERT"
+# mode.select = "SELECT"
+
+# [editor.statusline.mode]
+# normal = "NORMAL"
+
+
+
+
+
+
+
 
 
