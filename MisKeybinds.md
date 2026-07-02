@@ -44,3 +44,6 @@
 - @@    : run macro 
 - spc z : word wrap toggle
 - C     : multicursor
+- gn    : goto next buffer
+- gp    : goto previous buffer
+- gw    : goto word (easy motion)
