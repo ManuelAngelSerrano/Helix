@@ -36,8 +36,8 @@ C-c = "normal_mode" # Maps Ctrl-C to exit insert mode
 j = "normal_mode" # Maps `jj` to exit insert mode
 k = "normal_mode" # Maps `jk` to exit insert mode
 
-[keys.insert.","]
-"." = "normal_mode" # Maps ',.' to exit insert mode
+# [keys.insert.","]
+# "." = "normal_mode" # Maps ',.' to exit insert mode
 
 [keys.normal]
 C-s = ":write" # Ctrl and 's' to write
@@ -53,14 +53,21 @@ A-z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
 A-l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
 "V" = ["extend_line_below", "select_mode"] # Simula la V de vim, selecciona la linea actual y se queda en modo selecion
 
+[keys.normal."@"]
+"@" = "replay_macro"
+
 [keys.normal."space"]
 o = "file_picker_in_current_buffer_directory"
 v = ":vsplit"
 z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
 l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
+n = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
 s = ":write"
 q = ":quit"
 "-" = ":toggle auto-save.after-delay.enable"
+"," = "command_mode"
+"." = "command_mode"
+"x" = "command_mode"
 
 [keys.normal."g"]
 G = "goto_last_line"
