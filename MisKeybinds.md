@@ -34,7 +34,7 @@
 - spc c : Comentar   
 - spc w : Next buffer
 - spc v : split vertical
-- ,.    : command mode **QUITAR**
+- ,.    : command mode 
 - spc x : command mode 
 - spc , : command mode
 - spc . : command mode
