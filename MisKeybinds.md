@@ -23,7 +23,9 @@
  
 
 ## Futuro
-- Enter : Ir a word (easymotion)
+- Space : <leader>
+- Enter : goto word (easymotion)
+- spc spc w: goto word (easymotion)
 - spc . : Salir modo y modo cmd
 - spc e : Abrir
 - spc f : Explorador de archivos
@@ -44,6 +46,12 @@
 - @@    : run macro 
 - spc z : word wrap toggle
 - C     : multicursor
+- gw    : goto word (easy motion)
 - gn    : goto next buffer
 - gp    : goto previous buffer
-- gw    : goto word (easy motion)
+- gh    : goto begining of line
+- gl    : goto end of line
+- ge    : goto end of file
+- G     : goto end of file
+- 0     : goto begining of line
+- $    : goto end of line
