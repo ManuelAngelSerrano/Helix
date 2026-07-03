@@ -23,7 +23,7 @@
  
 
 ## Futuro
-- Space : <leader>
+- Space : `<leader>`
 - Enter : goto word (easymotion)
 - spc spc w: goto word (easymotion)
 - spc . : Salir modo y modo cmd
