@@ -52,6 +52,16 @@ k = "move_line_up"
 A-z = ":toggle soft-wrap.enable" # Para cambiar el word wrap
 A-l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
 "V" = ["extend_line_below", "select_mode"] # Simula la V de vim, selecciona la linea actual y se queda en modo selecion
+"y" = "yank_to_clipboard" # Copiar al system clipboard
+"p" = "paste_clipboard_after" # Pegar desde el system clipboard
+"P" = "paste_clipboard_before" # Pegar desde el system clipboard
+# "p" = "replace_selections_with_clipboard" # Simular el reemplazar la selección con el clipboard
+
+[keys.select]
+"y" = "yank_to_clipboard" # Copiar al system clipboard
+"p" = "replace_selections_with_clipboard" # Simular el reemplazar la selección con el clipboard
+"0" = "goto_line_start" 
+"$" = "goto_line_end"
 
 [keys.normal."@"]
 "@" = "replay_macro"
@@ -86,7 +96,4 @@ mode.insert = "INSERT"
 mode.select = "SELECT"
 diagnostics = ["warning", "error"]
 workspace-diagnostics = ["warning", "error"]
-
-
-
 
