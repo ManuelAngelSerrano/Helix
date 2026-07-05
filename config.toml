@@ -56,6 +56,9 @@ A-l = ":toggle line-number relative absolute" # Para cambiar los numeros de line
 "p" = "paste_clipboard_after" # Pegar desde el system clipboard
 "P" = "paste_clipboard_before" # Pegar desde el system clipboard
 # "p" = "replace_selections_with_clipboard" # Simular el reemplazar la selección con el clipboard
+C-7 = "toggle_comments"
+# Cmd-7 = "toggle_comments"  # No funciona porque no llega Cmd-7 al editor
+C-r = "redo"
 
 [keys.select]
 "y" = "yank_to_clipboard" # Copiar al system clipboard
