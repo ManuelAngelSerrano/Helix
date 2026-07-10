@@ -118,3 +118,8 @@ U = "switch_to_uppercase" # Simulamos gU de vim
 r = [":config-reload", ":reload-all"]
 o = ":config-open"
 l = ":o ~/.config/helix/languages.toml"
+
+[keys.normal."backspace"]
+r = [":config-reload", ":reload-all"]
+o = ":config-open"
+l = ":o ~/.config/helix/languages.toml"

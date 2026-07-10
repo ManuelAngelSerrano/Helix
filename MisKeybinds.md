@@ -47,6 +47,9 @@
 - Ctrl-Backspace r: reload config
 - Ctrl-Backspace o: open config
 - Ctrl-Backspace l: open languages config
+- Backspace r: reload config
+- Backspace o: open config
+- Backspace l: open languages config
 
 
 
