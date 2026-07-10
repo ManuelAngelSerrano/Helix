@@ -78,6 +78,8 @@ A-l = ":toggle line-number relative absolute" # Para cambiar los numeros de line
 C-7 = "toggle_comments"
 # Cmd-7 = "toggle_comments"  # No funciona porque no llega Cmd-7 al editor
 C-r = "redo"
+C-p = "command_mode"
+F1 = "command_mode"
 
 [keys.select]
 "y" = "yank_to_clipboard" # Copiar al system clipboard
@@ -107,6 +109,9 @@ G = "goto_last_line"
 # Recordemos que ~ cambia de uppercase a lowercase y vicersa
 u = "switch_to_lowercase" # Simulamos gu de vim
 U = "switch_to_uppercase" # Simulamos gU de vim
+# r = [":config-reload", ":reload-all"]
+# o = ":config-open"
+# l = ":o ~/.config/helix/languages.toml"
 
 # Config Mode
 [keys.normal."C-backspace"]

@@ -25,6 +25,8 @@
 - spc x : command mode 
 - spc , : command mode
 - spc . : command mode
+- Ctrl-p: command mode
+- F1    : command mode
 - spc l : num lineas relativo toggle
 - spc n : num lineas relativo toggle
 - spc - : autosave toggle 
