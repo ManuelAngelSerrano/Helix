@@ -42,8 +42,8 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-type"]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
-diagnostics = ["warning", "error"]
-workspace-diagnostics = ["warning", "error"]
+# diagnostics = ["warning", "error"]
+# workspace-diagnostics = ["warning", "error"]
 
 ## Keybinds
 ###########
@@ -98,7 +98,8 @@ l = ":toggle line-number relative absolute" # Para cambiar los numeros de linea 
 n = ":toggle line-number relative absolute" # Para cambiar los numeros de linea de relativos a absolutos
 s = ":write"
 q = ":quit"
-"-" = ":toggle auto-save.after-delay.enable"
+# "-" = ":toggle auto-save.after-delay.enable"
+minus = ":toggle auto-save.after-delay.enable"
 "," = "command_mode"
 "." = "command_mode"
 "x" = "command_mode"
